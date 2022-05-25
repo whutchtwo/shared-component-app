@@ -1,6 +1,38 @@
 <div class="container">
-<h3>Cleargov application using shared components</h3>
+  <h3>Cleargov application using shared components</h3>
   <div class="row">
-    <cleargov-simple-button label="Click Me" disabled="true">TEST</cleargov-simple-button>
+    <div class="col">
+      <cg-button
+        (click)="onClick()"
+        [type]="'primary'"
+        [size]="'small'"
+        class="me-2"
+        >Small</cg-button
+      >
+      <cg-button
+        (click)="onClick()"
+        [type]="'primary'"
+        class="me-2"
+        >Default</cg-button
+      >
+      <cg-button
+        (click)="onClick()"
+        [type]="'primary'"
+        [size]="'large'"
+        class="me-2"
+        >Large</cg-button
+      >
+      <cg-button
+        (click)="onClick()"
+        [icon]="'cloud-download'"
+        [type]="'primary'"
+        >With Icon</cg-button
+      >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Count: {{count}}
+    </div>
   </div>
 </div>

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  public count = 0;
   title = 'shared-component-app';
+
+  onClick(): void {
+    this.count++;
+  }
 }
