@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {ButtonsModule} from "@cleargov/shared-ui/buttons";
+import {ButtonModule} from "@cleargov/shared-ui/button";
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import {ButtonsModule} from "@cleargov/shared-ui/buttons";
   ],
   imports: [
     BrowserModule,
-    ButtonsModule
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

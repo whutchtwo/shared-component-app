@@ -18,7 +18,7 @@
     "@angular/platform-browser": "^13.3.9",
     "@angular/platform-browser-dynamic": "^13.3.9",
     "@angular/router": "^13.3.9",
-    "@cleargov/shared-ui": "0.0.5",
+    "@cleargov/shared-ui": "0.0.6",
     "@fortawesome/fontawesome-pro": "5.15.4",
     "bootstrap-icons": "^1.8.2",
     "rxjs": "~7.5.0",
